@@ -43,10 +43,13 @@
     </ul>
     <!-- 音声ファイルの読み込み -->
     <audio id="play1">
-      <source src="audio/RIGHT.mp3" type="audio/mp3">
+      <source src="audio/left.mp3" type="audio/mp3">
     </audio>
     <audio id="play2">
-      <source src="audio/LEFT.mp3" type="audio/mp3">
+      <source src="audio/right.mp3" type="audio/mp3">
+    </audio>
+    <audio id="play3">
+      <source src="audio/front.mp3" type="audio/mp3">
     </audio>
     <script type="text/javascript">
       let value1 = 0;
@@ -54,21 +57,24 @@
         document.getElementById("play1").load();
         document.getElementById("play1").play();
         document.getElementById("play2").pause();
+        document.getElementById("play3").pause();
       }
       function ring2() {
         document.getElementById("play2").load();
         document.getElementById("play2").play();
         document.getElementById("play1").pause();
+        document.getElementById("play3").pause();
       }
       function ring3() {
-        document.getElementById("play1").load();
-        document.getElementById("play1").play();
-        document.getElementById("play2").load();
-        document.getElementById("play2").play();
+        document.getElementById("play3").load();
+        document.getElementById("play3").play();
+        document.getElementById("play1").pause();
+        document.getElementById("play2").pause();
       }
       function ring4() {
         document.getElementById("play1").pause();
         document.getElementById("play2").pause();
+        document.getElementById("play3").pause();
       }
     </script>
   </section>

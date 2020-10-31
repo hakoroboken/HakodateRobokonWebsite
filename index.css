@@ -2,7 +2,7 @@ ul {
   list-style: none;
   padding: 0;
 }
-@media screen and (max-device-width: 375px) {
+@media screen and (max-device-width: 500px) {
   .main {
     margin :auto;
     width: 500px;

@@ -5,7 +5,6 @@ ul {
 @media screen and (max-device-width: 500px) {
   .main {
     margin :auto;
-    width: 500px;
     background-image: url("pic/KIRINN");
     background-color: rgba(255, 255, 255, 0.8);
     background-blend-mode: lighten;
@@ -15,6 +14,9 @@ ul {
     height: min-content;
     margin: auto;
     padding: 0 40px;
+  }
+  .top_img{
+    width: 500px;
   }
   
   .sound {

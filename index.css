@@ -3,58 +3,21 @@ ul {
   padding: 0;
 }
 @media screen and (max-device-width: 500px) {
-  .main {
-    margin :auto;
-    background-image: url("pic/KIRINN.png");
-    background-blend-mode: lighten;
-  }
   .top {
     text-align: center;
     height: min-content;
     margin: auto;
     padding: 0 40px;
   }
-  .top_img{
+  .top_img {
     width: 500px;
-  }
-  
-  .sound {
-    text-align: center;
-    margin: auto;
-    padding: 0 40px;
-  }
-  .button {
-    width: 300px;
-    text-align: center;
-    margin: auto;
-    /*text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;*/
-  }
-  .button_outside {
-    width: min-content;
-    margin: auto;
-    text-align: center;
   }
   .button_core {
     width: 250px;
     height: 120px;
-    display: inline-block;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    background: #668ad8; /*ボタン色*/
-    color: #fff;
-    border-bottom: solid 4px #627295;
-    border-radius: 3px;
+    font-size: xx-large;
   }
-  .button_core:active {
-    /*ボタンを押したとき*/
-    transform: translateY(4px);
-    transform: translateY(4px); /*下に動く*/
-    border-bottom: none; /*線を消す*/
-  }
-  .footer{
+  .footer {
     margin-top: 80px;
   }
   .go {
@@ -71,12 +34,44 @@ ul {
     left: 300px;
     top: 60px;
   }
-
 }
-@media screen and (min-device-width: 1100px){
+@media screen and (min-device-width: 1100px) {
+  .main {
+    width: 1100px;
+  }
+  .top_img {
+    width: 550px;
+  }
+  .button_core {
+    width: 250px;
+    height: 120px;
+    font-size: medium;
+    outline: none;
+  }
+  .button_core {
+    width: 150px;
+    height: 80px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .go {
+    position: relative;
+    top: 50px;
+  }
+  .left {
+    position: relative;
+    right: 180px;
+    top: 240px;
+  }
+  .right {
+    position: relative;
+    left: 180px;
+    top: 80px;
+  }
+}
 .main {
-  margin :auto;
-  width: 1100px;
+  margin: auto;
   background-image: url("pic/KIRINN.png");
   background-blend-mode: lighten;
 }
@@ -86,10 +81,6 @@ ul {
   margin: auto;
   padding: 0 40px;
 }
-.top_img{
-  width: 550px;
-}
-
 .sound {
   text-align: center;
   margin: auto;
@@ -99,10 +90,7 @@ ul {
   width: 550px;
   text-align: center;
   margin: auto;
-  /*text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;*/
+
 }
 .button_outside {
   width: min-content;
@@ -110,41 +98,22 @@ ul {
   text-align: center;
 }
 .button_core {
-  width: 90px;
-  height: 40px;
+
   display: inline-block;
   padding: 0.5em 1em;
+
   text-decoration: none;
-  background: #668ad8; /*ボタン色*/
+  background: #d3abab; /*ボタン色*/
   color: #fff;
-  border-bottom: solid 4px #627295;
-  border-radius: 3px;
+  border-bottom: solid 4px #47263c;
+  border-radius: 40px;
+  outline: none;
 }
 .button_core:active {
   /*ボタンを押したとき*/
+  text-decoration: none;
   transform: translateY(4px);
   transform: translateY(4px); /*下に動く*/
-  border-bottom: none; /*線を消す*/
-}
-.button_core{
-  width: 150px;
-  height: 80px;
-}
-.footer{
-  margin-top: 80px;
-}
-.go {
-  position: relative;
-  top: 50px;
-}
-.left {
-  position: relative;
-  right: 180px;
-  top: 240px;
-}
-.right {
-  position: relative;
-  left: 180px;
-  top: 80px;
-}
+  border: none; /*線を消す*/
+  outline: none;
 }

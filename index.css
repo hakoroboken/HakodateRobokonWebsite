@@ -93,6 +93,7 @@ ul {
 
 }
 .button_outside {
+  display: block;
   width: min-content;
   margin: auto;
   text-align: center;

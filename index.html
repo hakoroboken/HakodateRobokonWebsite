@@ -54,30 +54,46 @@
     <audio id="play3">
       <source src="audio/right.mp3" type="audio/mp3">
     </audio>
+    <audio id="play4">
+      <source src="audio/weakleft.mp3" type="audio/mp3">
+    </audio>
+    <audio id="play5">
+      <source src="audio/weakright.mp3" type="audio/mp3">
+    </audio>
     <script type="text/javascript">
       let value1 = 0;
       function ring1() {
         document.getElementById("play1").load();
         document.getElementById("play1").play();
+        document.getElementById("play4").load();
+        document.getElementById("play4").play();
         document.getElementById("play2").pause();
         document.getElementById("play3").pause();
+        document.getElementById("play5").pause();
       }
       function ring2() {
         document.getElementById("play2").load();
         document.getElementById("play2").play();
         document.getElementById("play1").pause();
         document.getElementById("play3").pause();
+        document.getElementById("play4").pause();
+        document.getElementById("play5").pause();
       }
       function ring3() {
         document.getElementById("play3").load();
         document.getElementById("play3").play();
+        document.getElementById("play5").load();
+        document.getElementById("play5").play();
         document.getElementById("play1").pause();
         document.getElementById("play2").pause();
+        document.getElementById("play4").pause();
       }
       function ring4() {
         document.getElementById("play1").pause();
         document.getElementById("play2").pause();
         document.getElementById("play3").pause();
+        document.getElementById("play4").pause();
+        document.getElementById("play5").pause();
       }
     </script>
   </section>

@@ -13,12 +13,12 @@ ul {
     width: 500px;
   }
   .button_core {
-   /* width: 250px;
+    width: 250px;
     height: 120px;
-    font-size: xx-large;*/
+    font-size: xx-large;
   }
-  .footer {/*
-    margin-top: 80px;*/
+  .footer {
+    margin-top: 80px;
   }
   .go {
     position: relative;
@@ -102,7 +102,6 @@ ul {
 
   display: inline-block;
   padding: 0.5em 1em;
-
   text-decoration: none;
   background: #d3abab; /*ボタン色*/
   color: #fff;
@@ -115,6 +114,6 @@ ul {
   text-decoration: none;
   transform: translateY(4px);
   transform: translateY(4px); /*下に動く*/
-  border: none; /*線を消す*/
-  outline: none;
+ /* border: none; /*線を消す*/
+ /* outline: none; */
 }

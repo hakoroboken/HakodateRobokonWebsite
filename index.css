@@ -1,0 +1,119 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+@media screen and (max-device-width: 500px) {
+  .top {
+    text-align: center;
+    height: min-content;
+    margin: auto;
+    padding: 0 40px;
+  }
+  .top_img {
+    width: 500px;
+  }
+  .button_core {
+    width: 250px;
+    height: 120px;
+    font-size: xx-large;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .go {
+    position: relative;
+    top: 0px;
+  }
+  .left {
+    position: relative;
+    right: 300px;
+    top: 300px;
+  }
+  .right {
+    position: relative;
+    left: 300px;
+    top: 60px;
+  }
+}
+@media screen and (min-device-width: 1100px) {
+  .main {
+    width: 1100px;
+  }
+  .top_img {
+    width: 550px;
+  }
+  .button_core {
+    width: 250px;
+    height: 120px;
+    font-size: medium;
+    outline: none;
+  }
+  .button_core {
+    width: 150px;
+    height: 80px;
+  }
+  .footer {
+    margin-top: 80px;
+  }
+  .go {
+    position: relative;
+    top: 50px;
+  }
+  .left {
+    position: relative;
+    right: 180px;
+    top: 240px;
+  }
+  .right {
+    position: relative;
+    left: 180px;
+    top: 80px;
+  }
+}
+.main {
+  margin: auto;
+  background-image: url("pic/KIRINN.png");
+  background-blend-mode: lighten;
+}
+.top {
+  text-align: center;
+  height: min-content;
+  margin: auto;
+  padding: 0 40px;
+}
+.sound {
+  text-align: center;
+  margin: auto;
+  padding: 0 40px;
+}
+.button {
+  width: 550px;
+  text-align: center;
+  margin: auto;
+
+}
+.button_outside {
+  display: block;
+  width: min-content;
+  margin: auto;
+  text-align: center;
+}
+.button_core {
+
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #d3abab; /*ボタン色*/
+  color: #fff;
+  border-bottom: solid 4px #47263c;
+  border-radius: 40px;
+  outline: none;
+}
+.button_core:active {
+  /*ボタンを押したとき*/
+  text-decoration: none;
+  transform: translateY(4px);
+  transform: translateY(4px); /*下に動く*/
+ /* border: none; /*線を消す*/
+ /* outline: none; */
+}

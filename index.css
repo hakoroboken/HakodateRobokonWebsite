@@ -2,6 +2,9 @@ ul {
   list-style: none;
   padding: 0;
 }
+section{
+  margin-top: 15px;
+}
 @media screen and (max-device-width: 500px) {
   .top {
     text-align: center;
@@ -261,4 +264,8 @@ ul {
   transform: translateY(4px); /*下に動く*/
  /* border: none; /*線を消す*/
  /* outline: none; */
+}
+.parts{
+  width: 500px;
+  margin:auto;
 }
